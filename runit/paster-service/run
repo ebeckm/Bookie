@@ -9,4 +9,4 @@ VENV=/home/bookie/Bookie/bin/activate
 cd $ROOT
 . $VENV
 
-exec chpst -u root $PASTER serve --daemon bookie.ini
+exec chpst -u root $PASTER serve bookie.ini
